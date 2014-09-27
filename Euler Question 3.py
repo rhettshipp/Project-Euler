@@ -11,10 +11,11 @@ def is_prime(num):
 """
 Create a list containing all factors of 600851475143
 """
-list = []
+value = 0
 for x in xrange(775147, -1, -2):
     if 600851475143 % x == 0 and is_prime(x) == True:
-        list.append(x)
-print list[0]
+        value = x
+        break
+print value
         
         
