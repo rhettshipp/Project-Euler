@@ -1,5 +1,14 @@
 """
-Primality test
+Problem:
+
+The prime factors of 13195 are 5, 7, 13 and 29.
+
+What is the largest prime factor of the number 600851475143 ?
+
+"""
+
+"""
+Create a function to test for primality
 """
 def is_prime(num):
     if not num % 2 or not num % 3:
